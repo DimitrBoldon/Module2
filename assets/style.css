@@ -10,3 +10,16 @@ header {
     background-color: #13293d;
     color: #fff;
 }
+.tag {
+    background-image: url(..images/coding.jpg);
+    height: 500px;
+}
+
+h1 {
+    font-size: 200%;
+  }
+
+  h2 {
+    margin: 2% 0;
+    font-size: 250%;
+  }
