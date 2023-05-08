@@ -12,6 +12,16 @@
     color: white;
 }
 
+.backgroundheader {
+    position: relative;
+
+}
+.cool-title {
+    position: absolute;
+    right: 0;
+    bottom: 20px;
+    font-size: 50px;
+}
 
 main {
     display:flex;
@@ -34,11 +44,14 @@ main {
     margin-right: 50px;
   }
 
+.ba
+
 .article {
     display: flex;
-    justify-content: center;
+    justify-content: right;
     margin-left: 300px;
     font-size: 20px;
+    float: right;
 }
 
 .h2 {
@@ -48,20 +61,23 @@ main {
     justify-content: left;
     font-size: 250%;
     color: white;
+    margin-top: 50px;
     
   }
-
+.row {
+    display: flex;
+}
 .containers {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     justify-content: left;
     align-items: center;
-    width: .1%;
-    height: 800px;
+    border-left: black 2px solid;
     margin: 0;
-    border-style: solid;
-    border-width: 2px;
-    float: right;
+    
+}
+.Smallercontainer:first-child {
+    flex-basis: 100%;
 }
 
 .Smallercontainer {
@@ -112,6 +128,16 @@ text-align: left;
 background: blueviolet;
 color: #fff;
 margin-top: auto;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 40px;
 }
 
 @media screen and (max-width: 992px) {
